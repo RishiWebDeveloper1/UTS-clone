@@ -1,0 +1,31 @@
+{
+  "name": "UTS Clone",
+  "short_name": "UTS",
+  "description": "Educational purpose only do not use for worng work",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "rgb(241, 112, 26)",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "./image/logo-icon.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./image/logo-icon.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "productivity"],
+  "lang": "en",
+  "scope": "./",
+  "id": "uts-clone-app",
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  }
+}
